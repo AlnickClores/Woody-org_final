@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgb(253, 253, 253);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #0a192f;
+    height: 100vh;
+}
+.reg{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.5rem;
+}
+.reg h1{
+    color: #64ffda;
+}
+.container{
+    background-color: #112240;
+    width: 50%;
+    padding: 25px 30px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+.container h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ccd6f6;
+}
+.container form .innerContainer{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .innerContainer .info{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.innerContainer .info .details{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #8892b0;
+}
+.innerContainer input{
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: black;
+}
+.innerContainer2 span{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #ccd6f6;
+}
+.innerContainer2 .info2{
+    margin: 10px 5px;
+    color: #8892b0;
+}
+.innerContainer2 input{
+    color: black;
+}
+.btn{
+    text-align: center;
+    padding: 10px 90px;
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 5px;
+    border-color: #64ffda;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #64ffda;
+    cursor: pointer;
+    align-self: center;
+    margin-left: 35%;
+}
+.btn:hover{
+    background-color: #64ffdb2c;
+}

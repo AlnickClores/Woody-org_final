@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="73436_woody_icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Awareness Woody</title>  
+</head>
+<body>
+    <header id="navbar">
+		<div class="logo">
+            <a href="Homepage.html"><img src="images/logo_nobg.png"></a>
+		</div>
+		<ul class="navigations">
+			<li><a href="selfdefense.html">Self Defense</a></li>
+            <li><a href="equipments.html">Equipments</a></li>
+			<li><a href="hotline.html">Emergency Hotlines</a></li>
+            <li><a href="comment.php">Forums</a></li>
+            <li><a href="profile.php">Profile</a></li>
+		</ul>
+		<ul class="registration">
+            <li><a href="login_page.php"><button class="btnNav">Sign In</button></a></li>
+            <li><a href="registration.php"><button class="btnNav">Sign Up</button></a></li>
+        </ul>
+	</header>
+    
+    <div class="quote_container">
+        <div class="quote">
+            <h1>"Self-Defense is not <br> only our right; It is our duty."</h1>
+            <h3><span>-Ronald Reagan</span></h3>
+        </div>
+    </div>
+
+    <section>
+        <div class="mainContent">
+            <h1>ABOUT OUR WEBSITE</h1>
+            <p>
+                Philippines has numerous numbers of kidnapping or rape cases in the year 2022. A lot of victims were
+                minor or women.
+                We should always appreciate life since it is the most valuable gift anyone could ever get. We must
+                defend our lives from those who wish to harm us if we are to appreciate them.
+                <br>
+                This website intends to assist the community in eliminating or reducing kidnapping incidents by
+                educating them or raising awareness to those people by learning some suitable self-defense techniques
+                that they can train in and utilize in dangerous situations <br><br><br>
+            </p>
+            <h1>KIDNAPPING IN THE PHILIPPINES</h1>
+            <img src="images/kidnap.jpg">
+            <p>
+                The Philippine National Police (PNP) said on Thursday that kidnapping instances from January through
+                July this year were largely connected to POGO (Philippine Offshore Gaming Operator), although most of
+                these have already been settled.
+                
+                According to PNP spokesperson Police Colonel Jean Fajardo, &quot;We have registered 25 occurrences of
+                kidnapping episodes from January to July 2022, the majority of them were POGO-related.&quot;
+            </p>
+        </div>
+    </section>
+    
+    <footer>
+        <button class="btn"><a href="aboutus.html">Learn More About Us</a></button>
+        <p>Woody.Org © All Rights Reserved. 2022</p>
+    </footer>
+    
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+        navbar = document.getElementById('navbar');
+        window.addEventListener("scroll", function(){
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if(scrollTop > lastScrollTop){
+                navbar.syle.top = "-80px";
+            }else{
+                navbar.style.top = "0";
+            }
+            lastScrollTop = scrollTop;
+        })
+    </script>
+</body> 
+</html>

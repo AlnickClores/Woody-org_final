@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgb(253, 253, 253);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{ 
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0a192f;
+}
+li, a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%; 
+    background-color: transparent;
+    list-style: none;
+    text-decoration: none;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(2,12,27,0.7);
+}
+.logo img{
+    height: 100px;
+    width: 200px;
+}
+.logout{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.logout li{
+    display: inline;
+}
+.btnNav{
+    padding: 0.5rem 0.75rem;
+    background-color: transparent;
+    border-color: #64ffda;
+    border-width: 1px;
+    border-radius: 4px;
+    color: #64ffda;
+    cursor: pointer;
+}
+.btnNav:hover{
+    background-color: #64ffdb2c;
+    opacity: 1;
+}
+
+section{
+    padding: 25px 12%;
+}
+
+.welcome{
+    font-size: 1.5rem;
+    margin: 20px 50px;
+}
+
+.welcome h1{
+    font-size: 4rem;
+}
+
+span .welc{
+    color: #64ffda;
+}
+.php{
+    margin: 5rem;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    line-height: 75px;
+    padding: 25px;
+    background-color: #112240;
+    border-radius: 15px;
+}
+span:not(.logOut){
+    color: #64ffda;
+    font-weight: 500;
+}
