@@ -14,11 +14,16 @@
 </head>
 <body>
     <header>
-        <input type="checkbox" id="check">
+        <!--<input type="checkbox" id="check">
         <label for="check">
             <i class="fas fa-bars" id="btn"></i>
             <i class="fas fa-times" id="cancel"></i>
-        </label>
+        </label> -->
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
 		<div class="logo">
             <a href="Homepage.html"><img src="images/logo_nobg.png"></a>
 		</div>
@@ -73,19 +78,6 @@
         <p>Woody.Org © All Rights Reserved. 2022</p>
     </footer>
     
-    <script type="text/javascript">
-        var lastScrollTop = 0;
-        navbar = document.getElementById('navbar');
-        window.addEventListener("scroll", function(){
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            if(scrollTop > lastScrollTop){
-                navbar.syle.top = "-80px";
-            }else{
-                navbar.style.top = "0";
-            }
-            lastScrollTop = scrollTop;
-        })
-    </script>
+    <script src="woody.js"></script>
 </body> 
 </html>
