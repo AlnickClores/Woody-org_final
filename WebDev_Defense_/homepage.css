@@ -267,7 +267,6 @@ label #cancel{
     .logo img{
         height: 60px;
         width: 130px;
-        margin-left: 50px;
         margin-top: 8px;
     }
     .registration{
@@ -310,7 +309,7 @@ label #cancel{
         background: linear-gradient(to right, #8535ca, #5b17e2);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: 3px black;
+        -webkit-text-stroke: 1.5px black;
         font-size: 33px;
     }
 
