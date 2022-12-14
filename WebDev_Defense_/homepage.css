@@ -215,7 +215,9 @@ footer{
     color: #000;
     font-weight: bold;
    }
-
+.hide{
+    display: none;
+}
 
 label #btn,
 label #cancel{
@@ -225,6 +227,9 @@ label #cancel{
 #check{
     display: none;
 }
+.hamburger{
+    display: none;
+}
 @media only screen and (max-width: 576px) {
     label #btn{
         display: block;
@@ -232,6 +237,24 @@ label #cancel{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger .line{
+        width: 25px;
+        height: 2px;
+        background: #fefefe;
+        margin: 5px 0;
+    }
+    .hamburger.active .line:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .line:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .line:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
     header{
         display: flex;
@@ -264,6 +287,9 @@ label #cancel{
     .navigations a{
         font-size: 17px;
     }
+    .navigations.active{
+        left: 0;
+    }
     .logo img{
         height: 60px;
         width: 130px;
@@ -278,7 +304,7 @@ label #cancel{
         display: inline;
     }
     .btnNav{
-        padding: 3px 5px;
+        padding: 6px 5px;
         background-color: transparent;
         border-color: #64ffda;
         border-width: 1px;
