@@ -444,3 +444,13 @@ label #cancel{
         font-weight: bold;
        }
 }
+
+@media only screen and (max-width: 375px) {
+    .cont1 img{
+        width: 245px;
+        height: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }   
+}
